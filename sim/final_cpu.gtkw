@@ -1,0 +1,43 @@
+[*]
+[*] GTKWave Analyzer v3.3.126 (w)1999-2026 BSI
+[*] Thu Oct  1 19:47:02 2026
+[*]
+[dumpfile] "/home/prath/RV32I-Single-Cycle/sim/final_cpu.vcd"
+[dumpfile_mtime] "Thu Oct  1 19:16:09 2026"
+[dumpfile_size] 10570
+[savefile] "/home/prath/RV32I-Single-Cycle/final_cpu.gtkw"
+[timestart] 0
+[size] 960 540
+[pos] -27 -24
+*-16.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] full_cpu_tb.
+[treeopen] full_cpu_tb.uut.
+[sst_width] 297
+[signals_width] 198
+[sst_expanded] 1
+[sst_vpaned_height] 136
+@28
+full_cpu_tb.clk
+full_cpu_tb.reset
+@22
+full_cpu_tb.uut.pc_unit.pc[31:0]
+full_cpu_tb.uut.imem.address[31:0]
+full_cpu_tb.uut.imem.instruction[31:0]
+full_cpu_tb.uut.alu_unit.result[31:0]
+full_cpu_tb.uut.registers.read_data1[31:0]
+full_cpu_tb.uut.registers.read_data2[31:0]
+full_cpu_tb.uut.immediate_generator.immediate[31:0]
+full_cpu_tb.uut.write_back_data[31:0]
+@28
+full_cpu_tb.uut.control.reg_write
+full_cpu_tb.uut.control.mem_read
+full_cpu_tb.uut.control.mem_write
+full_cpu_tb.uut.control.mem_to_reg
+full_cpu_tb.uut.control.alu_src
+full_cpu_tb.uut.control.branch
+full_cpu_tb.uut.control.jump
+full_cpu_tb.uut.branch_taken
+@23
+full_cpu_tb.uut.next_pc[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

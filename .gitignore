@@ -1,0 +1,36 @@
+# Simulation output files
+*.out
+*.vcd
+*.fst
+*.log
+
+# GTKWave temporary/session files
+*.gtkw~
+
+# RISC-V build files
+*.o
+*.bin
+
+# Vivado generated files
+.vivado/
+vivado/
+*.jou
+*.str
+*.xpr
+*.runs/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+
+# VS Code
+.vscode/
+
+# WSL/Linux temporary files
+*~
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
