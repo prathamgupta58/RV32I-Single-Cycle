@@ -284,7 +284,15 @@ The 18/18 result represents the checks shown in the recorded final test output. 
 
 ## GTKWave Waveform Analysis
 
-GTKWave is used to inspect internal CPU signals and understand the processor's operation during simulation.
+GTKWave is used to visualize and analyze the internal signals of the RV32I single-cycle processor during simulation.
+
+<p align="center">
+  <img src="gtkwave2.png"
+       alt="RV32I CPU simulation waveform in GTKWave"
+       width="100%">
+</p>
+
+*Figure: Simulation waveform showing the program counter, instruction decoding, ALU operations, register data, and CPU control signals.*
 
 ### Open the waveform
 
