@@ -97,40 +97,11 @@ The following instructions are supported by the current design.
 
 ## CPU Architecture
 
-The processor follows a single-cycle datapath architecture. Instruction fetch, decode, execution, memory access when required, and write-back are completed within one clock cycle.
-
-```text
-              ┌──────────────────┐
-              │ Program Counter  │
-              └────────┬─────────┘
-                       ▼
-              ┌──────────────────┐
-              │ Instruction Mem. │
-              └────────┬─────────┘
-                       ▼
-              ┌──────────────────┐
-              │   Control Unit   │
-              └────────┬─────────┘
-                       │
-             ┌─────────┴─────────┐
-             ▼                   ▼
-      ┌──────────────┐    ┌──────────────┐
-      │ Register File│    │ Immediate Gen│
-      └──────┬───────┘    └──────┬───────┘
-             └─────────┬─────────┘
-                       ▼
-                ┌────────────┐
-                │    ALU     │
-                └─────┬──────┘
-                      ▼
-                ┌────────────┐
-                │ Data Memory│
-                └─────┬──────┘
-                      ▼
-                ┌────────────┐
-                │ Write-Back │
-                └────────────┘
-```
+<p align="center">
+  <img src="rv32i_architecture.png"
+       alt="RV32I Single-Cycle CPU Architecture"
+       width="100%">
+</p>
 
 *Conceptual datapath overview. The actual RTL also includes control signals, result-selection logic, and branch/jump target selection.*
 
