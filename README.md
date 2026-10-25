@@ -97,14 +97,13 @@ The following instructions are supported by the current design.
 
 ## CPU Architecture
 
+The following diagram illustrates the datapath of the RV32I single-cycle RISC-V processor.
+
 <p align="center">
-  <img src="rv32i_architecture.png"
-       alt="RV32I Single-Cycle CPU Architecture"
+  <img src="RV32I%20Single-Cycle%20CPU%20Datapath%20Diagram.png"
+       alt="RV32I Single-Cycle CPU Datapath Diagram"
        width="100%">
 </p>
-
-*Conceptual datapath overview. The actual RTL also includes control signals, result-selection logic, and branch/jump target selection.*
-
 ## Project Structure
 
 ```text
